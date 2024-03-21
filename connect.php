@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     if ($stmt->execute()) {
         echo "Login data inserted successfully";
     } else {
-        echo "Error: " . $stmt->error
+        echo "Error: " . $stmt->error;
     }
 }
 
